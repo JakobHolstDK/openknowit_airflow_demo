@@ -263,7 +263,6 @@ tomlkit==0.11.6
 tox==3.4.0
 tqdm==4.64.1
 typing-extensions==3.10.0.0
-UNKNOWN @ file:///home/jho/projects/openknowit_kalm
 urllib3==1.24.2
 urwid==2.1.2
 uWSGI==2.0.20
