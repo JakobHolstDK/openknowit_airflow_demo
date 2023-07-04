@@ -122,7 +122,6 @@ numpy==1.14.3
 oauthlib==3.2.2
 openai==0.8.0
 openidc-client==0.6.0
-openknowit-kalm-common @ file:///home/jho/produktion/openknowit_kalm_common
 openstacksdk==0.59.0
 ordered-set==2.0.2
 ordereddict==1.1
