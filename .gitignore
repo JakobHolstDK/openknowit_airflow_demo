@@ -1,0 +1,13 @@
+venv/
+logs/
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.env
+.profile
+.ssh/
+.viminfo
+.wget-hsts
+airflow/
+vevn/
