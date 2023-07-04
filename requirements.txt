@@ -14,7 +14,6 @@ Babel==2.5.1
 bcrypt==3.1.6
 beautifulsoup4==4.6.3
 blivet==3.6.0
-bmap-tools==3.5
 bodhi==4.0.2
 bodhi-client==4.0.2
 boto3==1.15.15
