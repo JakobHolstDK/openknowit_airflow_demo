@@ -5,7 +5,7 @@ sudo rm -r /var/lib/docker
 sudo systemctl  start docker
 source ~/.bashrc
 export AIRFLOW_UID=$(id -u)
-docker-compose up
+docker-compose up -d
 
 
 if [[ $AIRFLOW_USER == "" ]];
