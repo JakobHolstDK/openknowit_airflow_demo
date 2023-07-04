@@ -38,7 +38,7 @@ then
 	AIRFLOW_LASTNAME="airflow"
 fi
 
-docker ps |grep webserver|awk '{ print $1 }' |xargs -i{} docker exec -i {} airflow users create --username $AIRFLOW_USER -e $AIRFLOW_EMAIL -f AIRFLOW_FIRSTNAME -l${LASTNAME}  --role Admin --password ${AIRFLOW_PASSWORD}
+docker ps |grep webserver|awk '{ print $1 }' |xargs -i{} docker exec -i {} airflow users create --username ${AIRFLOW_USER} -e ${AIRFLOW_EMAIL} -f ${AIRFLOW_FIRSTNAME} -l ${AIRFLOW_LASTNAME}  --role Admin --password ${AIRFLOW_PASSWORD}
 
 
 
